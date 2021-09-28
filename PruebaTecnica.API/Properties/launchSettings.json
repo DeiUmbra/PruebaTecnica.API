@@ -12,7 +12,7 @@
 		"IIS Express": {
 			"commandName": "IISExpress",
 			"launchBrowser": true,
-			"launchUrl": "api/AfliadoDataGeneral",
+			"launchUrl": "api/DoctorData",
 			"environmentVariables": {
 				"ASPNETCORE_ENVIRONMENT": "Development"
 			}

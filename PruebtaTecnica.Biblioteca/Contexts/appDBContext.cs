@@ -9,6 +9,12 @@ namespace PruebtaTecnica.Biblioteca.Contexts
 		{
 		}
 
-		public DbSet<afiliado_datos_generales> afiliado_datos_generales { get; set; }
+		public DbSet<paciente_informacion> paciente_informacion { get; set; }
+
+		public DbSet<doctor_informacion_basica> doctor_informacion_basica { get; set; }
+
+		public DbSet<cita> cita { get; set; }
+
+		public DbSet<diagnostico> diagnostico { get; set; }
 	}
 }
